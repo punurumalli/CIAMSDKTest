@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Identity"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.5"
   spec.summary      = "A short description of Identity."
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.vendored_frameworks = 'Identity.xcframework'
+  spec.vendored_frameworks = 'CIAMSDKTest-1.0.5/Identity.xcframework'
 
 end
